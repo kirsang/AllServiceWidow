@@ -95,7 +95,7 @@ namespace WindowsServiceTest2
         private void Watcher_Deleted(object sender, FileSystemEventArgs e)
         {
             string fileEvent = "удалён";
-            string filePath = e.FullPath; ;
+            string filePath = e.FullPath; 
             RecordEntry(fileEvent, filePath);
         }
 
